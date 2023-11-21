@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "508940754599",
+    "project_id": "quickchat-c44da",
+    "storage_bucket": "quickchat-c44da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508940754599:android:b4026f600fa7ce65700582",
+        "android_client_info": {
+          "package_name": "com.courseclass.quickchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyqLJ_Tp-I-OiSQr38es2-2-Hs-ozbfk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

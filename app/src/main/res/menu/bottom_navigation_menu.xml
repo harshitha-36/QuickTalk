@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:title="Chats"
+        android:icon="@drawable/chat_icon"
+        android:id="@+id/menu_chat"/>
+
+    <item android:title="Profile"
+        android:icon="@drawable/person_icon"
+        android:id="@+id/menu_profile"/>
+
+    <item android:title="VideoCall"
+        android:icon="@drawable/videocall_icon"
+        android:id="@+id/menu_vcall"/>
+
+</menu>
