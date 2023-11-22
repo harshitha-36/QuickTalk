@@ -37,7 +37,7 @@
             android:layout_height="32dp"
             android:layout_margin="10dp"
             android:background="@drawable/circular_bg"
-            android:backgroundTint="@color/red">
+            android:backgroundTint="#FF7F7F">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -53,7 +53,7 @@
             android:layout_height="32dp"
             android:layout_margin="10dp"
             android:background="@drawable/circular_bg"
-            android:backgroundTint="#FF7F7F">
+            android:backgroundTint="@color/red">
 
             <TextView
                 android:layout_width="wrap_content"
