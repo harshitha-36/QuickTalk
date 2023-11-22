@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/off_white"
+    android:background="#505050"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".VideoCallActivity">
@@ -22,8 +22,9 @@
             android:id="@+id/user_id_text_view"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text="Hi!"
-            android:textColor="@color/black"
+            android:fontFamily="@font/manrope_semibold"
+            android:text="@string/hi_user_id"
+            android:textColor="@color/off_white"
             android:textSize="16sp" />
 
         <TextView
@@ -31,15 +32,16 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:text="Let's start video and Audio call"
-            android:textColor="@color/black"
+            android:fontFamily="@font/manrope_extrabold"
+            android:text="@string/let_s_start_a_video_naudio_call"
+            android:textColor="@color/off_white"
             android:textSize="24sp" />
 
         <TextView
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text="To start a video audio call please enter the user id of whom you want to call and select the option of video audio call"
-            android:textColor="@color/black"/>
+            android:text="@string/to_start_a_video_audio_call_please_enter_the_user_id_of_whom_you_want_to_call_and_select_the_option_of_video_audio_call"
+            android:textColor="@color/off_white"/>
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
@@ -49,7 +51,7 @@
         android:layout_marginTop="100dp"
         android:elevation="10dp"
         android:gravity="center_vertical"
-        app:cardBackgroundColor="@color/my_primary"
+        app:cardBackgroundColor="#FF7F7F"
         app:cardCornerRadius="30dp"
         app:cardElevation="1dp">
 
@@ -59,10 +61,11 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginVertical="7dp"
-            android:hint="User Id"
+            android:fontFamily="@font/manrope_medium"
+            android:hint="@string/user_id"
             android:singleLine="true"
-            android:textColor="@color/black"
-            android:textColorHint="@color/my_primary"
+            android:textColor="@color/off_white"
+            android:textColorHint="#504F4F"
             android:textSize="16sp" />
 
     </androidx.cardview.widget.CardView>
@@ -84,7 +87,7 @@
             android:layout_width="65dp"
             android:layout_height="65dp"
             app:cardCornerRadius="35dp"
-            app:cardBackgroundColor="@color/my_primary">
+            app:cardBackgroundColor="@color/black">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -94,7 +97,7 @@
                     android:id="@+id/video_call_btn"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:background="@color/my_primary"/>
+                    android:background="@color/off_white"/>
             </LinearLayout>
 
 
@@ -105,7 +108,7 @@
             android:id="@+id/button_audio"
             android:layout_width="65dp"
             android:layout_height="65dp"
-            app:cardBackgroundColor="@color/my_primary"
+            app:cardBackgroundColor="@color/black"
             app:cardCornerRadius="35dp">
 
             <LinearLayout

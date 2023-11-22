@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".VideoCallMainActivity"
-    android:background="@color/off_white">
+    tools:context=".MainActivity"
+    android:background="#505050">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         android:layout_marginHorizontal="20dp"
         android:elevation="10dp"
         android:gravity="center_vertical"
-        app:cardBackgroundColor="@color/my_primary"
+        app:cardBackgroundColor="#FF7F7F"
         app:cardCornerRadius="30dp"
         app:cardElevation="1dp">
 
@@ -26,8 +26,8 @@
             android:paddingVertical="20dp">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -37,8 +37,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:text="Start a video and audio call"
-                    android:textColor="@color/black"
+                    android:fontFamily="@font/manrope_extrabold"
+                    android:text="@string/start_a_video_naudio_call"
+                    android:textColor="@color/off_white"
                     android:textSize="24sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -47,13 +48,40 @@
                 <TextView
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:text="Start a video and audio call around the globe in few seconds and enjoy the seamless connection"
+                    android:text="@string/start_a_video_audio_call_around_the_globe_in_few_seconds_and_enjoy_the_seamless_connection"
                     app:layout_constraintEnd_toEndOf="@+id/textView"
                     app:layout_constraintStart_toStartOf="@+id/textView"
                     app:layout_constraintTop_toBottomOf="@+id/textView"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/off_white"/>
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_marginBottom="7dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/video"
+                    app:tint="@color/off_white" />
+
+                <TableRow android:layout_width="40dp"
+                    android:layout_height="2.5dp"
+                    android:background="@color/off_white"/>
+
+                <ImageView
+                    android:layout_marginTop="7dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/microphone"
+                    app:tint="@color/off_white" />
+            </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
@@ -69,7 +97,7 @@
             android:elevation="10dp"
             android:layout_weight="5"
             android:gravity="center_vertical"
-            app:cardBackgroundColor="@color/my_primary"
+            app:cardBackgroundColor="#FF7F7F"
             app:cardCornerRadius="30dp"
             app:cardElevation="1dp">
 
@@ -79,9 +107,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginVertical="7dp"
-                android:hint="Your User Id"
+                android:fontFamily="@font/manrope_medium"
+                android:hint="@string/your_user_id"
                 android:singleLine="true"
-                android:textColor="@color/black"
+                android:textColor="#ECE4E4"
                 android:textColorHint="#504F4F"
                 android:textSize="16sp" />
 
@@ -93,7 +122,7 @@
         android:layout_marginTop="70dp"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        app:cardBackgroundColor="@color/my_primary"
+        app:cardBackgroundColor="#A21212"
         app:cardCornerRadius="35dp">
         <LinearLayout
             android:layout_width="match_parent"
@@ -104,7 +133,7 @@
                 android:layout_height="40dp"
                 android:src="@drawable/round_arrow"
                 app:tint="#ECECEC"
-                android:contentDescription="Next Button" />
+                android:contentDescription="@string/next_button" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
